@@ -123,6 +123,11 @@
       "outbounds":[
         "auto",
         "direct",
+		"HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "{all}"
       ]
     },
@@ -130,6 +135,7 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "TaiWan",
         "Singapore",
         "Japan",
@@ -142,6 +148,7 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -154,6 +161,7 @@
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -166,6 +174,7 @@
       "tag":"Twitter",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -178,6 +187,7 @@
       "tag":"Facebook",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -207,6 +217,7 @@
       "tag":"Spotify",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -220,6 +231,7 @@
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -232,6 +244,7 @@
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -244,6 +257,7 @@
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -257,6 +271,7 @@
       "type":"selector",
       "outbounds":[
         "direct",
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -270,6 +285,7 @@
       "type":"selector",
       "outbounds":[
         "direct",
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -283,6 +299,7 @@
       "type":"selector",
       "outbounds":[
         "direct",
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -295,6 +312,7 @@
       "tag":"Streaming",
       "type":"selector",
       "outbounds":[
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -307,6 +325,7 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
+	    "Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -326,53 +345,68 @@
     },
     {
       "tag":"HongKong",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
-      ]
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag":"TaiWan",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇹🇼|TW|tw|台湾|臺灣|台|Taiwan"]}
-      ]
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag":"Singapore",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
-      ]
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag":"Japan",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
-      ]
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag":"America",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
-      ]
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
     },
     {
       "tag":"Others",
