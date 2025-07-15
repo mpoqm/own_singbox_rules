@@ -579,8 +579,8 @@
         "tag": "geosite-anti-AD",
         "type": "remote",
         "format": "binary",
-        "url": "https://anti-ad.net/anti-ad-sing-box.srs",
-        "download_detour": "direct"
+        "url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/anti-ad-sing-box.srs",
+        "download_detour": "auto"
       },
       {
         "tag": "geosite-openai",
