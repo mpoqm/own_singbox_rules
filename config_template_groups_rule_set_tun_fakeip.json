@@ -353,8 +353,8 @@
         {"action":"include","keywords":["🇭🇰|HK|hk|香港|港|HongKong"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
+      "interval": "5m",
+      "tolerance": 20
     },
     {
       "tag":"TaiWan",
@@ -367,7 +367,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "tag":"Singapore",
@@ -380,7 +380,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "tag":"Japan",
@@ -392,8 +392,8 @@
         {"action":"include","keywords":["🇯🇵|JP|jp|日本|日|Japan"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
+      "interval": "5m",
+      "tolerance": 20
     },
     {
       "tag":"America",
@@ -405,8 +405,8 @@
         {"action":"include","keywords":["🇺🇸|US|us|美国|美|United States"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
-      "interval": "10m",
-      "tolerance": 50
+      "interval": "5m",
+      "tolerance": 20
     },
     {
       "tag":"Others",
@@ -429,7 +429,7 @@
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
-      "tolerance": 50
+      "tolerance": 20
     },
     {
       "type": "direct",
