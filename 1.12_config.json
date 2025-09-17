@@ -452,6 +452,16 @@
         "outbound": "Proxy"
       },
       {
+        "rule_set": "geosite-anti-AD",
+        "clash_mode": "rule",
+        "action": "reject"
+      },
+      {
+        "rule_set": "geosite-anti-AD",
+        "clash_mode": "global",
+        "outbound": "Proxy"
+      },
+      {
         "clash_mode": "direct",
         "outbound": "direct"
       },
