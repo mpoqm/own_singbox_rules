@@ -93,6 +93,13 @@
         "172.19.0.0/30",
         "fdfe:dcba:9876::0/126"
       ],
+	  "route_address": ["0.0.0.0/1", "128.0.0.0/1", "::/1", "8000::/1"],
+      "route_exclude_address": [
+        "192.168.0.0/16",
+        "10.0.0.0/8",
+        "172.16.0.0/12",
+        "fc00::/7"
+      ],
       "stack": "system",
       "auto_route": true,
       "strict_route": true,
@@ -320,6 +327,7 @@
       "tag":"Global",
       "type":"selector",
       "outbounds":[ 
+		"Proxy",
         "HongKong",
         "TaiWan",
         "Singapore",
